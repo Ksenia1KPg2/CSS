@@ -1,0 +1,72 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Kurowska Z11_html</title>
+</head>
+<body>
+
+<h1><b>Omówienie rodzajów selektorów.</h1></b>
+<br>
+<h4><b><u>Rodzaj pierwszy</u></b></h4>
+<h2><b>Selektory proste nazywany inaczej <u>selektor typu</u></b></h2>
+<br>
+<p>p <br>
+&nbsp&nbsp{ <br>
+&nbsp&nbspcolor:red; <br>
+&nbsp&nbspfont-size:14pt; <br>
+} 
+<br>
+<u>Selektorem prostym</u> jest znaczniki języka XHTML/HTML <b>(np. p, h3, table, img)</b>przypisany 
+do elementu, który chcesz w danym momencie formatować.  
+Styl zdefiniowany dla przykładowego selektora <b>p</b> będzie odnosił się wyłącznie do akapitów 
+zamkniętych w znacznikach <p></p> i nie będzie wpływał na pozostałe elementy strony 
+WWW.</p> 
+
+<h4><b><u>Rodzaj drugi</u></b></h4>
+<h2><b>Selektor uniwersalny</b></h2>
+<br>
+Składnia teoretyczna: 
+<br>
+<textarea cols="70" rows="1">
+* { cecha: wartość } 
+</textarea>
+<br><br>
+<b>Cecha</b>(ang. property) oraz <b>wartość</b>(ang. value) określają atrybuty elementu. 
+<br><br>
+Selektor taki pozwala ustalić określone atrybuty dla wszystkich elementów strony, a więc dla 
+różnych selektorów typu. Możemy za pomocą tej komendy nadać to samo formatowanie dla 
+wszystkich elementów na całej stronie, niezależnie od ich typu (p, h1, li itd.). 
+<br>
+<u>Uwaga1</u><br>
+Niestety jego działanie nie zawsze jest jednoznaczne, dlatego dużo <u>bezpieczniej jest używać 
+selektora typu dla elementu body</u>, chyba że zastosujemy to polecenie w odniesieniu do klasy 
+selektorów. 
+<br>
+<u>Uwaga2</u><br>
+Jeśli selektor uniwersalny chcemy zastosować do selektora innego niż selektor typu (w 
+połączeniu z selektorami: atrybutów, specjalnymi, pseudoelementów lub pseudoklas), to 
+gwiazdkę można pominąć. 
+<br>
+<u>Przykład</u> <br>
+Zdarza się, że zachodzi potrzeba zdefiniowania jakiegoś typu formatowania w ten sposób, aby 
+zadziałał on na cały dokument. Bardzo dobrym przykładem takiej sytuacji może być tło, które 
+zazwyczaj powinno być identyczne dla całego dokumentu. Odpowiedni styl może przyjąć 
+następującą postać: 
+<br><br>
+body <br>
+&nbsp&nbsp{ <br>
+&nbsp&nbsp&nbsp&nbspcolor:red;  /* kolor czcionki */ <br>
+&nbsp&nbsp&nbsp&nbspfont-size:14pt; /* wielkość czcionki */ <br>
+&nbsp&nbsp}<br>
+<br>
+inny sposób zamiast selektora uniwersalnego stosujemy znak *<br>
+<br> 
+* <br>
+&nbsp&nbsp{ <br>
+&nbsp&nbsp&nbsp&nbspbackground-color:white; /* kolortła */<br>
+&nbsp&nbsp} <br>
+
+
+</body>
+</html>
+<!--Kurowska Z11_html-->

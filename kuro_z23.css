@@ -1,0 +1,33 @@
+p#pogrubienie_kurowska{
+    font-weight: bold;
+    color: #E01FD4;
+    font-size: 33px;
+}
+p#pochylona_kurowska{
+    font-style: italic;
+    font-size: 38pt;
+    color: #EAC8850;
+}
+p#index_gorny_kurowska{
+    wertical-align: super;
+    font-size: 1.3cm;
+    color: #FD81C4;
+}
+p#index_dolny_kurowska{
+    wertical-align: sub;
+    font-size: 2.1cm;
+    color: #3F2B717;
+}
+p#mono_kurowska{
+    font-family: monospace;
+    font-size: 43px;
+    color: #3ADEF2;
+}
+p#powiekszenie_kurowska{
+    font-size: larger; 
+    color: #935F32;
+}
+p#pomniejszenie_kurowska{
+    font-size: smaller;
+    color: rgb(96%, 58%, 23%);
+}

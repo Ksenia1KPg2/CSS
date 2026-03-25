@@ -1,0 +1,81 @@
+<html> 
+	<head> 
+		<meta charset="utf-8"> 
+		<title> Kurowska </title> 
+	</head> 
+<body> 
+
+<table border="1">
+	<tr>
+		<td>
+			<p>Co znaczy skrót ID?</p>
+		</td>
+		<td>
+			<p> <b>identyfikator — ID.</b></p>
+		</td>
+	</tr>
+	
+	<tr>
+		<td>
+			<p>Jaki jest cel stosowania ID?</p>
+		</td>
+		<td>
+			<p>Jeśli chemy <b><u>zróżnicowanie</u></b> podobnych elementów można uzyskać: stosując ID</p>
+
+		</td>
+	</tr>
+	
+	<tr>
+		<td>
+			<p>Jakie jest znaczenie znaku #</p>
+		</td>
+		<td>
+			<p>Przed definiowaniem identyfikatora występuje <b>znak #</b>. </p>
+		</td>
+	</tr>
+	
+	<tr>
+		<td>
+			<p>Jak następuje wywołanie ID(wraz z wytłumaczeniem)?</p>
+		</td>
+		<td>
+			<p><u>Wywołanie</u> identyfikatora to id="nazwa zdefiniowanego w CSS identyfikatora" czyli: Odpowiedni wpis składa się z selektora, do którego planujemy przypisać identyfikator, oraz z nazwy poprzedzonej znakiem #.</p>
+<textarea cols="65" rows="19">
+<!-- Definiowanie -->
+
+p 
+	{ 
+	color:green; 
+	font-size:14pt; 
+	} 
+p#pochyly 
+	{ 
+	font-style:italic; 
+	font-size:20pt; 
+	}
+
+	<!-- Użycie -->
+	
+<p>Blok tekstu o kolorze zielonym i czcionce 14pt</p> 
+<p id="pochyly">Blok tekstu o kolorze zielonym i czcionce 20pt</p> 
+<p>Blok tekstu o kolorze zielonym i czcionce 14pt</p> 
+</textarea>
+		</td>
+	</tr>
+	
+	<tr>
+		<td>
+			<p>Uwagi na temat stosowania ID(trzy) konieczne wyliczenia.</p>
+		</td>
+		<td>
+			<ul>
+				<li><b>Różnica między id a class -> Identyfikator może wystąpić tylko raz w całym dokumencie, natomiast klasę można powielać do woli.</b></li>
+				<li>Podobnie jak klasy, identyfikatorów, możemy używać tyle razy, ile razy uznamy to za konieczne. <b>Działanie takie jest błędem,</b> ale nie wpływa na poprawność działania strony.</li>
+				<li>Elementy oznaczone ID muszą być <b>unikatowe</b>, tzn., że na jednej stronie może wystąpić tylko 1 element z takim ID. Jeśli nie mamy pewności, czy element wystąpi więcej niż raz to możemy bez obaw użyć 'class', które może być przypisane do nieskończenie wielu elementów na stronie.</li>
+			</ul>
+		</td>
+	</tr>
+</table>
+
+</body>
+</html>

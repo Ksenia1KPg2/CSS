@@ -1,0 +1,17 @@
+* {
+	font-size: 36pt;
+	color: blue;
+	background-color: yellow;
+}
+
+p. klasa_nieuniwersalna_kurowska{
+	font-size: 33pt;
+	color: purple;
+}
+
+.klasa_uniwersalna_kurowska {
+	font-size: 32 pt;
+	color: black;
+}
+
+/* Kurowska Z57_css */

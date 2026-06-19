@@ -1,0 +1,20 @@
+div{
+color: red;
+font-size: 2 cm;
+}
+a{
+font-size: 18pt;
+text-decoration: none;
+}
+a:link{
+color: blue;
+}
+a:visited{
+color: green;
+}
+a:hover{
+color: red;
+text-decoration: underline;
+}
+
+/*Kurowska Z59_css*/

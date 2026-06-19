@@ -1,0 +1,16 @@
+body {
+    background-color: silver;
+    }
+    p{
+    font-size: 5mm;
+    color: red;
+    }   
+    p:lang(pl){
+    font-size: 6mm;
+    color:orange;
+    }
+    p:lang(en){
+    font-size: 10mm;
+    color:yellow;
+    }
+/* Kurowska Z62_css */
